@@ -1,0 +1,212 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    height: 50px;
+    background: #212121;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted #000000;
+    padding-right: 28px;
+}
+
+.menu .menu_item:last-child {
+    border-right: none;
+}
+
+.subheader {
+    top: 50px;
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.subheader .subheader_call {
+    color: #FFFFFF;
+    margin-top: 19px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    color: #FFFFFF;
+    width: 172px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    /* box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12); */
+    border-radius: 4px;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/bg/uber_bg.png') center center/cover;
+    padding: 152px 0 185px 0;
+}
+
+.promo .promo_header {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.promo .promo_subheader {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin-bottom: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.promo .promo_btn{
+    display: block;
+    margin: 116px auto 0 auto;
+    color: #FFFFFF;
+    width: 211px;
+    height: 63px;
+    border: none;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.reasons {
+    padding:18px 0 65px 0;
+}
+
+.label {
+    margin: 0 auto;
+    height: 24px;
+    width: 112px;
+    padding: 5px 12px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.title {
+    color: #222222;
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reasons .reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 35px;
+}
+
+.reasons .reasons_block .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.reasons .reasons_block .reasons_descr {
+    width: 372px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_subtitle {
+    color: #1EACC7;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.reasons .reasons_block .reasons_descr .reasons_text {
+    color: #202020;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
